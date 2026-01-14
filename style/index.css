@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navContainer {
+    display: flex;
+    background: linear-gradient(135deg, #d9b3ff, #7b5cff);
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+}
+nav ul{
+    list-style: none;
+}
+
+.link {
+    display: flex;
+    justify-content: space-around;
+}
