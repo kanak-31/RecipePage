@@ -15,6 +15,11 @@ I am currently improving the UI and will add JavaScript functionality soon.
 * Category navigation (Veg, Non-Veg, Italian, Desserts)
 
 ---
+##  Project Preview
+
+<p style="text-align:center;">
+  <img src="assets/preview.png" width="700" />
+</p>
 
 ## Tech Stack
 
