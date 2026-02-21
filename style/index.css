@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*position: absolute;*/
 }
 
 body{
@@ -12,13 +11,16 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #635fba;
-    background: linear-gradient(174deg, rgba(99, 95, 186, 1) 0%, rgba(194, 39, 183, 1) 69%, rgba(163, 23, 194, 1) 100%);
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 4%, rgba(135, 43, 62, 1) 79%);
 }
 
 .main_container{
     background: #020024;
-    background: linear-gradient(193deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 29%, rgba(0, 212, 255, 1) 100%);
+    background-image: url("../images/background.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border: solid black 2px;
     height: 95vh;
     width: 70vw;
@@ -32,16 +34,54 @@ body{
 }
 
 .cards{
-    background-color: aliceblue;
-    height: 40vh;
-    width: 17vw;
-    padding: 10px;
-    border-radius: 5%;
-    border: 2px solid blue;
+    background-color: rgb(198, 235, 228);
+    height: 300px;
+    width: 230px;
+    border-radius: 10px;
+    border: 4px solid rgb(164, 76, 118);
     transition: transform 0.3s ease;
     
 }
 
 .cards:hover{
     transform: scale(1.08);
+}
+
+.images{
+    width: 100%;
+    height: 150px;
+    display: block;  /*images are inline object so we use this*/
+    object-fit: cover;
+    border-radius: 9px 9px 0 0;
+    border-bottom: 4px solid rgb(181, 116, 116);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 6px;
+}
+
+.content h3{
+    color: rgb(133, 87, 26);
+}
+
+.content p{
+    height: 70px;
+}
+
+.content a{
+    text-decoration: none;
+    color: #020024;
+    padding-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+.content a :hover{
+    text-decoration: dotted;
+    color: rgb(112, 16, 16);
+    transform: scale(1.3);
 }
