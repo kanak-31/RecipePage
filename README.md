@@ -19,14 +19,12 @@ I am currently improving the UI and will add JavaScript functionality soon.
 ### 💻 Desktop View
 
   <p style="text-align:center;">
-    <img src="assets/preview.png" width="80%" />
+  <img src="assets/mobilepreview.png" width="30%" />
+  <img src="assets/mediumScreenPreview.png" width="30%" />
+  <img src="assets/preview.png" width="30%" />
   </p>
 
-  ### 📱 Mobile Responsive View
-  <p style="text-align:center;">
-    <img src="assets/mobilepreview.png" width="300" />
-  </p>
-
+  
  The layout adapts using CSS media queries (mobile-first approach).
 
  ---
