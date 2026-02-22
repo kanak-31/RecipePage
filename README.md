@@ -15,11 +15,22 @@ I am currently improving the UI and will add JavaScript functionality soon.
 * Category navigation (Veg, Non-Veg, Italian, Desserts)
 
 ---
-##  Project Preview
 
-<p style="text-align:center;">
-  <img src="assets/preview.png" width="700" />
-</p>
+### 💻 Desktop View
+
+  <p style="text-align:center;">
+    <img src="assets/preview.png" width="80%" />
+  </p>
+
+  ### 📱 Mobile Responsive View
+  <p style="text-align:center;">
+    <img src="assets/mobilepreview.png" width="300" />
+  </p>
+
+ The layout adapts using CSS media queries (mobile-first approach).
+
+ ---
+
 
 ## Tech Stack
 
