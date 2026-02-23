@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 4%, rgba(135, 43, 62, 1) 79%);
+}
+
+.maincontainer{
+    height: 99vh;
+    width: 95vw;
+    background-image: url("../images/background.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px; 
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    align-content: space-between;
+    background-color: rgb(84, 70, 70);
+    width: 95vw;
+    height: 100px;
+    border-radius: 5px; 
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+nav h2{
+    align-self: center;
+    padding: 8px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    align-self: self-end;
+}
+
+.links a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 1px;
+}
+
+.types{
+    display: flex;
+}
+
+.type2{
+    display: flex;
+    font-size: 0.7rem;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    width: 240px;
+    border: 2px solid rgb(164, 76, 118);
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(180, 198, 195);
+}
+
+.content h3{
+        padding: 20px;
+        color: rgb(164, 76, 118);
+        font-size: 2rem;
+        text-align: center;
+    }
+
+.images{
+    width: 100%;
+    height: 50%;
+    display: block;
+    border-radius: 9px 9px 0 0;
+    border-bottom: 2px solid rgb(181, 116, 116);
+}
+
+.content a{
+    text-align: center;
+    text-decoration: none;
+}
