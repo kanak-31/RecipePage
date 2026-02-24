@@ -20,17 +20,17 @@ I am currently improving the UI and will add JavaScript functionality soon.
 
   #### Home Page
     <p style="text-align:center;">
-    <img src="assets/mobilepreview.png" width="30%" />
-    <img src="assets/mediumScreenPreview.png" width="30%" />
-    <img src="assets/preview.png" width="30%" />
+    <img src="./assets/mobilepreview.png" width="30%" />
+    <img src="./assets/mediumScreenPreview.png" width="30%" />
+    <img src="./assets/preview.png" width="30%" />
     </p>
 
   #### 2nd Page
     <p style="text-align:center;">
-    <img src="assets/mobileviewvegrecipe.png" width="30%" />
+    <img src="./assets/mobileviewvegrecipe.png" width="30%" />
     </p>
 
-    
+
  The layout adapts using CSS media queries (mobile-first approach).
 
  ---
