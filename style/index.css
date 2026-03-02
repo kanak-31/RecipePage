@@ -78,8 +78,7 @@ body{
     }
 
     .content a:hover{
-        text-decoration: dotted;
-        color: rgb(112, 16, 16);
+        color: rgb(80, 8, 79);
         transform: scale(1.3);
     }
 

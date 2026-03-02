@@ -84,14 +84,19 @@ nav h2{
     margin: 10px;
     border-radius: 5px;
     background-color: rgb(180, 198, 195);
+    transition: transform 0.3s ease;
+}
+
+.cards:hover{
+    transform: scale(1.04);
 }
 
 .content h3{
-        padding: 20px;
-        color: rgb(164, 76, 118);
-        font-size: 2rem;
-        text-align: center;
-    }
+    padding: 20px;
+    color: rgb(133, 87, 26);
+    font-size: 2rem;
+    text-align: center;
+}
 
 .images{
     width: 100%;
@@ -103,11 +108,19 @@ nav h2{
 }
 
 .content a{
+    display: inline-block;
     text-align: center;
     text-decoration: none;
+    transition: transform 0.3s ease;
+    padding-left: 73px;
 }
 
-@media (min-width: 500px) and (max-width: 927px) {
+.content a:hover{
+    color:  rgb(80, 8, 79);
+    transform: scale(1.3);
+}
+
+@media (min-width:500px) {
     .maincontainer{
         height: 99vh;
         width: 95vw;
@@ -129,6 +142,7 @@ nav h2{
         width: 450px;
         display: flex;
         flex-direction: row;
+        margin: 15px;
     }
 
     .images{
@@ -149,15 +163,13 @@ nav h2{
         line-height: 35px;
     }
 
-    .button{
-        padding-bottom: 8px;
-        padding-left: 8px;
+    .content a{
+        text-align: center;
     }
 
-    
-
-    .button4{
-        padding-left: 15px;
+    .button{
+        padding-right: 47px;
+        padding-bottom: 8px;
     }
 
     nav h2{
@@ -195,11 +207,11 @@ nav h2{
     }
 }
 
-@media (min-width: 927px) {
+@media (min-width: 1067px) {
     .maincontainer{
         border: solid black 2px;
         max-height: 95vh;
-        width: 80vw;
+        width: 70vw;
         background-image: url("../images/background.avif");
         background-size: cover;
         background-position: center;
@@ -210,6 +222,10 @@ nav h2{
         border-radius: 5px;
         overflow: hidden;
         align-items: center;
+    }
+
+    .navbar{
+        display: none;
     }
 
     .scontainer{
@@ -230,9 +246,26 @@ nav h2{
         background-color: rgb(180, 198, 195);
     }
 
-    .navbar{
-        display: none;
+    .images{
+        width: 100%;
+        height: 50%;
+        border-radius: 9px 9px 0 0;
+        object-fit: cover; /*prevent stretching*/
+        border-bottom: 2px solid rgb(181, 116, 116);
     }
 
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .content a{
+        padding-left: 40px;
+        padding-right: 0;
+    }
     
 }
