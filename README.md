@@ -29,7 +29,9 @@ I am currently improving the UI and will add JavaScript functionality soon.
 ### 2nd Page
 
 <p align="center">
-  <img src="./assets/mobileviewvegrecipe.png" width="30%" />
+  <img src="./assets/appetizermobileinterface.png" width="30%" />
+  <img src="./assets/appetizermediumscreen.png" width="30%" />
+  <img src="./assets/appetizerlargescreen.png" width="30%" />
 </p>
 
 The layout adapts using CSS media queries (mobile-first approach).
