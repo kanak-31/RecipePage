@@ -46,7 +46,8 @@ nav ul li{
 }
 
 .cards{
-    margin: 20px;
+    margin: 5px;
+    margin-bottom: 20px;
     border: 2px solid brown;
     border-radius: 8px;
     box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.2) ;
@@ -114,4 +115,54 @@ nav ul li{
 
 .spacing{
     height: 200px;
+}
+
+@media (min-width:550px){
+
+    .cards{
+    margin: 5px;
+    margin-bottom: 20px;
+    border: 2px solid brown;
+    border-radius: 8px;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.2) ;
+    height: 200px;
+    max-width: 1000px;
+    background-color: rgb(212, 179, 221);
+    display: flex;
+    }
+
+    .image{
+    display: inline-block;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 20%;
+    height: 100%;
+    background-color: azure;
+}
+
+.ingredients{
+    border-radius: 0%;
+    width: 25%;
+    background-color: antiquewhite;
+}
+
+.recipe{
+    height: 100%;
+    width: 55%;
+    margin: 0;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.recipe h2{
+    text-align: center;
+    color: rgb(6, 11, 25);
+}
+
+.recipe ol{
+    list-style: none;
+    padding-left: 8px;
+}
 }
