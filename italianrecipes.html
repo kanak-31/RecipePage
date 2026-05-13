@@ -1,95 +1,250 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlavorHub Italian Recipes</title>
-    <link rel="stylesheet" href="./style/category.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlavorHubItalianRecipe</title>
+
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="./style/recipes.css" />
+  </head>
+
+  <body>
     <div class="maincontainer">
-            <nav class="navbar">
-                <h2>NON-Veg Recipes</h2>
-                <div class="links">
-                    <div class="types type1">
-                        <a href="#appetizers">Appetizers</a>
-                        <a href="#soups">Soups</a>
-                    </div>
-                    <div class="types type2">
-                        <a href="#mains">Mains</a>
-                        <a href="#Rice">Rice</a>
-                    </div>
-                    <div class="types type3">
-                        <a href="#snacks">Snacks</a>
-                        <a href="#chinese">Chinese</a>
-                    </div>
-                </div>
-            </nav>
-        <div class="scontainer">
-            <section id="appetizers">
-                <div class="container">
-                    <div class="cards">
-                        <img class = "images" src="images/appetizer.jpg" alt="ITALIAN">
-                        <div class="content">
-                        <h3>Appetizer</h3>
-                        <a href="appetizer.html" target="_blank">
-                            <div class="button button1">Check Menu</div></a>
-                        </div>
-                    
-                    </div>
-                </div>
-            </section>
-            <section id="soups">
-                <div class="cards">
-                        <img class = "images" src="images/soups.jpg" alt="ITALIAN">
-                    <div class="content">
-                        <h3>Soups</h3>
-                        <a href="soups.html" target="_blank">
-                            <div class="button button2">Check Menu</div></a>
-                    </div>
-                    </div>
-            </section>
-            <section id="mains"> 
-                <div class="cards">
-                        <img class = "images" src="images/maincourse.jpg" alt="ITALIAN">
-                    <div class="content">
-                        <h3 class="size">Mains</h3>
-                        <a href="maincourse.html" target="_blank">
-                            <div class="button button3">Check Menu</div></a>
-                    </div>
-                    </div>
-            </section>
-            <section id="Rice">
-                    <div class="cards">
-                        <img class = "images image4" src="images/biryani.jpg" alt="ITALIAN">
-                    <div class="content">
-                        <h3 class="size">Rice</h3>
-                        <a href="ricerecipe.html" target="_blank">
-                            <div class="button button4">Check Menu</div></a>
-                    </div>
-                    </div>
-            </section>
-            <section id="snacks">
-                <div class="cards">
-                        <img class = "images" src="images/naan.jpg" alt="ITALIAN">
-                    <div class="content">
-                        <h3>Snacks</h3>
-                        <a href="breads.html" target="_blank">
-                            <div class="button button5">Check Menu</div></a>
-                    </div>
-                    </div>
-            </section>
-            <section id="indochinese">
-                <div class="cards">
-                        <img class = "images" src="images/salad.jpg" alt="ITALIAN">
-                    <div class="content">
-                        <h3>Indo-Chinese</h3>
-                        <a href="salads.html" target="_blank">
-                            <div class="button button6">Check Menu</div></a>
-                    </div>
-                    </div>
-            </section>
+      <nav>
+        <ul>
+          <li><a href="#pastapomodoro">Pasta Pomodoro</a></li>
+          <li><a href="#margheritapizza">Pizza</a></li>
+          <li><a href="#lasagna">Lasagna</a></li>
+          <li><a href="#risotto">Risotto</a></li>
+          <li><a href="#bruschetta">Bruschetta</a></li>
+          <li><a href="#alfredopasta">Alfredo Pasta</a></li>
+        </ul>
+      </nav>
+
+      <div class="container">
+        <div class="content" id="pastapomodoro">
+          <h3 class="heading">Pasta Pomodoro</h3>
+          <img
+            class="foodimg"
+            src="./images/pastapomodoro.jpg"
+            alt="Pasta Pomodoro"
+          />
+
+          <div class="detail">
+            <div class="ingredients">
+              <h4>Ingredients</h4>
+              <ul>
+                <li>200 g pasta</li>
+                <li>2 tomatoes</li>
+                <li>2 garlic cloves</li>
+                <li>2 tbsp olive oil</li>
+                <li>Italian herbs</li>
+                <li>Chili flakes</li>
+                <li>Salt</li>
+              </ul>
+            </div>
+
+            <div class="recipe">
+              <h4>How to make Pasta Pomodoro</h4>
+              <ol>
+                <li>Boil the pasta.</li>
+                <li>Sauté garlic in olive oil.</li>
+                <li>Add tomato puree.</li>
+                <li>Add herbs and spices.</li>
+                <li>Mix pasta well.</li>
+                <li>Cook for 3 minutes.</li>
+                <li>Serve hot.</li>
+              </ol>
+            </div>
+          </div>
         </div>
+
+        <div class="content" id="margheritapizza">
+          <h3 class="heading">Margherita Pizza</h3>
+          <img
+            class="foodimg"
+            src="./images/margheritapizza.jpg"
+            alt="Margherita Pizza"
+          />
+
+          <div class="detail">
+            <div class="ingredients">
+              <h4>Ingredients</h4>
+              <ul>
+                <li>1 pizza base</li>
+                <li>1/2 cup pizza sauce</li>
+                <li>1 cup mozzarella cheese</li>
+                <li>Tomato slices</li>
+                <li>Olive oil</li>
+                <li>Italian herbs</li>
+                <li>Salt</li>
+              </ul>
+            </div>
+
+            <div class="recipe">
+              <h4>How to make Margherita Pizza</h4>
+              <ol>
+                <li>Spread sauce on pizza base.</li>
+                <li>Add cheese and tomatoes.</li>
+                <li>Sprinkle herbs.</li>
+                <li>Bake for 12 minutes.</li>
+                <li>Drizzle olive oil.</li>
+                <li>Slice the pizza.</li>
+                <li>Serve hot.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div class="content" id="lasagna">
+          <h3 class="heading">Lasagna</h3>
+          <img
+            class="foodimg"
+            src="./images/lasagna.jpg"
+            alt="Lasagna"
+          />
+
+          <div class="detail">
+            <div class="ingredients">
+              <h4>Ingredients</h4>
+              <ul>
+                <li>6 lasagna sheets</li>
+                <li>1 cup tomato sauce</li>
+                <li>1 cup cheese</li>
+                <li>1 onion</li>
+                <li>2 garlic cloves</li>
+                <li>Italian herbs</li>
+                <li>Salt</li>
+              </ul>
+            </div>
+
+            <div class="recipe">
+              <h4>How to make Lasagna</h4>
+              <ol>
+                <li>Boil lasagna sheets.</li>
+                <li>Cook onion and garlic.</li>
+                <li>Add tomato sauce.</li>
+                <li>Layer sheets and sauce.</li>
+                <li>Add cheese on top.</li>
+                <li>Bake for 20 minutes.</li>
+                <li>Serve hot.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div class="content" id="risotto">
+          <h3 class="heading">Risotto</h3>
+          <img
+            class="foodimg"
+            src="./images/risotto.jpg"
+            alt="Risotto"
+          />
+
+          <div class="detail">
+            <div class="ingredients">
+              <h4>Ingredients</h4>
+              <ul>
+                <li>1 cup rice</li>
+                <li>1 onion</li>
+                <li>2 tbsp butter</li>
+                <li>1/2 cup cream</li>
+                <li>1 cup vegetable stock</li>
+                <li>Italian herbs</li>
+                <li>Salt</li>
+              </ul>
+            </div>
+
+            <div class="recipe">
+              <h4>How to make Risotto</h4>
+              <ol>
+                <li>Sauté onion in butter.</li>
+                <li>Add rice and cook.</li>
+                <li>Pour vegetable stock.</li>
+                <li>Add cream and herbs.</li>
+                <li>Cook until creamy.</li>
+                <li>Stir well.</li>
+                <li>Serve hot.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div class="content" id="bruschetta">
+          <h3 class="heading">Bruschetta</h3>
+          <img
+            class="foodimg"
+            src="./images/bruschetta.jpg"
+            alt="Bruschetta"
+          />
+
+          <div class="detail">
+            <div class="ingredients">
+              <h4>Ingredients</h4>
+              <ul>
+                <li>4 bread slices</li>
+                <li>2 tomatoes</li>
+                <li>2 garlic cloves</li>
+                <li>Olive oil</li>
+                <li>Basil leaves</li>
+                <li>Chili flakes</li>
+                <li>Salt</li>
+              </ul>
+            </div>
+
+            <div class="recipe">
+              <h4>How to make Bruschetta</h4>
+              <ol>
+                <li>Toast the bread slices.</li>
+                <li>Mix tomatoes and garlic.</li>
+                <li>Add olive oil and herbs.</li>
+                <li>Spread mixture on bread.</li>
+                <li>Sprinkle chili flakes.</li>
+                <li>Garnish with basil.</li>
+                <li>Serve fresh.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div class="content" id="alfredopasta">
+          <h3 class="heading">Alfredo Pasta</h3>
+          <img
+            class="foodimg"
+            src="./images/alfredopasta.jpg"
+            alt="Alfredo Pasta"
+          />
+
+          <div class="detail">
+            <div class="ingredients">
+              <h4>Ingredients</h4>
+              <ul>
+                <li>200 g pasta</li>
+                <li>1/2 cup cream</li>
+                <li>2 tbsp butter</li>
+                <li>2 garlic cloves</li>
+                <li>1/2 cup cheese</li>
+                <li>Italian herbs</li>
+                <li>Salt</li>
+              </ul>
+            </div>
+
+            <div class="recipe">
+              <h4>How to make Alfredo Pasta</h4>
+              <ol>
+                <li>Boil the pasta.</li>
+                <li>Melt butter in pan.</li>
+                <li>Add garlic and cream.</li>
+                <li>Add cheese and herbs.</li>
+                <li>Mix pasta well.</li>
+                <li>Cook for 2 minutes.</li>
+                <li>Serve hot.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
