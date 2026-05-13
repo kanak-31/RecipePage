@@ -5,8 +5,7 @@
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     overflow-x: hidden;
     background-color: rgb(225, 220, 213);
 }
@@ -128,6 +127,7 @@ body{
         padding-bottom: 5px;
     }
 
+
     .recipe{
         gap: 4px;
         display: flex;
@@ -139,15 +139,13 @@ body{
 
     .content{
         height: 400px;
-        width: 97%;
         display: grid;
         grid-template-areas: 
             "heading heading"
             "foodimg detail";
         overflow: hidden;
         margin: 50px;
-        margin-right: 40px;
-
+        margin-bottom: 100px;
     }
 
     .content img{
@@ -179,6 +177,12 @@ body{
 
     .ingredients ul li:hover{
         transform: scale(1.2);
+    }
+
+    .ingredients h4, 
+    .recipe h4{
+        font-size: 30px;
+        margin: 8px;
     }
 
     .recipe{
