@@ -26,7 +26,7 @@ body{
 .content h3{
     text-align: center;
     font-size: 35px;
-    padding: 3px;
+    padding: 15px;
     background-color: rgb(234, 196, 146);
     color: rgb(102, 56, 78);
 }
@@ -52,7 +52,7 @@ body{
     .content{
         gap: 3px;
         border: 2px solid saddlebrown;
-        height: 450px;
+        min-height: 450px;
         display: grid;
         grid-template-areas: 
             "heading heading"
@@ -61,6 +61,7 @@ body{
         overflow-x: hidden;
         overflow-y: auto;
         margin: 15px;
+        margin-bottom: 80px;
         border-radius: 15px;
 
          /* Firefox scrollbar */
@@ -94,7 +95,7 @@ body{
     .content img{
         max-width: 250px;
         height: 400px;
-        top: 0;
+        border: 2px solid saddlebrown;
         justify-self: center;
         align-self: center;
         object-fit: cover;
