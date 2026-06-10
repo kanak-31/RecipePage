@@ -1,5 +1,7 @@
 # Recipe Website (Under Development)
 
+🔗 Live Site: https://kanak-31.github.io/RecipePage/
+
 This is my first frontend project built using **HTML and CSS**.
 The project displays different recipe categories using a card-based layout.
 
